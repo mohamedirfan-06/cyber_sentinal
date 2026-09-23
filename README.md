@@ -71,3 +71,12 @@ The business-hours heuristic uses UTC hours 09:00–17:00.
 See [module documentation](docs/AI_MODULE.md) and [review results](docs/REVIEW.md).
 The [second review](docs/SECOND_REVIEW.md) records the additional fixes, 70-test
 verification, and before/after performance measurements.
+
+## MySQL persistence
+
+The optional MySQL 8+ integration is in the [database](database/README.md)
+folder. Run the SQL files there in order, create the dedicated application user,
+then set `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, and `DB_PASSWORD`. Set
+`DB_PERSIST=true` before starting `python -m cybersentinel_ai.server` to persist
+analysis results submitted to `/api/analyze`. The engine and API continue to
+work without MySQL when persistence is disabled.
