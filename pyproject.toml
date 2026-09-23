@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cybersentinel-ai"
+version = "1.0.0"
+description = "Offline security event analysis, rules, anomaly detection and correlation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scikit-learn>=1.3", "joblib>=1.3"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["cybersentinel_ai*"]
+exclude = ["cybersentinel_ai.tests*"]

